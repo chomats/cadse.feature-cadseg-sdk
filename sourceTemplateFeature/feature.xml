@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="Feature.Cadse.Cadseg.sdk"
-      label="Cadseg Sdk"
+      id="Feature.Cadse.Cadseg.source"
+      label="Cadseg Sources"
       version="2.3.0.qualifier"
       provider-name="ADELE">
 
    <description url="http://cadse.imag.fr/index.php?lang=en">
-      CADSEg is a project of the Adele team, in Grenoble University (LIG), France. CADSEg is an editor and a generator for CADSEs - Computer Aided Domain Specific Engineering environments. Through dedicated editors and models, CADSEg provides support for specific CADSE definitions, i.e. the domain concepts, the mapping toward Eclipse, the interaction wizards and so on.
-
-The goal of a CADSE is to help software developers when developing software application in a given business or industrial domain. A CADSE appears, to the developer, as an &quot;intelligent&quot; high level Eclipse workspace, which &quot;knows&quot; the concepts of the domain, and knows the &quot;best&quot; way to map them toward programming artifacts : files, folders, projects...
+      Cadse sources
    </description>
 
    <copyright url="http://www.example.com/copyright">
@@ -235,17 +233,5 @@ See the License for the specific language governing permissions
 and
 limitations under the License.
    </license>
-
-   <includes
-         id="Feature.Cadse.Cadseg"
-         version="0.0.0"/>
-
-   <includes
-         id="Feature.Cadse.Cadseg.source"
-         version="0.0.0"/>
-
-   <includes
-         id="Feature.Cadse.ipojo.sdk"
-         version="0.0.0"/>
 
 </feature>
